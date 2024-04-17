@@ -48,9 +48,6 @@ This project is a web-based application designed to manage information about uni
 ### Create - Universities
 <img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.59.35 AM.png" alt="Create Screenshot" width="400"/>
 
-### Read - Universities
-<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.13.46 AM.png" alt="Read Screenshot" width="400"/>
-
 ### Read - University Details
 <img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.58.41 AM.png" alt="Read Screenshot" width="400"/>
 
@@ -59,6 +56,10 @@ This project is a web-based application designed to manage information about uni
 
 ### Delete - Universities
 <img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.13.46 AM.png" alt="Delete Screenshot" width="400"/>
+
+## Laravel & Project Thoughts
+
+I found the process of learning PHP and Laravel enjoyable and intuitive, with less of a learning curve than other languages I've encountered. While developing this project, I faced several challenges and wished there could have been more time to apply better coding practices, enhance the styling, etc. As my interests lean more towards QA/software testing, I would have appreciated additional sessions focused on these areas.
 
 
 
