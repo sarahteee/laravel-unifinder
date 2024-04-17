@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is a web-based application designed to manage information about universities and countries. It allows users to create, read, update, and delete (CRUD) details about universities and countries. The application is built using the Laravel framework, demonstrating modern web application practices and Laravel's capabilities.
+This project is a web-based application designed to manage information about universities and countries. It allows users to create, read, update, and delete (CRUD) details about universities and countries. The application is built using the Laravel framework.
 
 ## Features
 
