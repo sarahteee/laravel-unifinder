@@ -42,7 +42,7 @@ This project is a web-based application designed to manage information about uni
 | `deleted_at`          | timestamp    | Soft delete timestamp (nullable)       |
 
 ## User Flow Images
-<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.51.53 AM.png" alt="Login Screenshot" width="600"/>
+<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.51.53 AM.png" alt="Login Screenshot" width="400"/>
 
 ![Login](/laravel-unifinder-images/Screenshot 2024-04-17 at 7.51.53 AM.png)
 
