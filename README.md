@@ -42,9 +42,24 @@ This project is a web-based application designed to manage information about uni
 | `deleted_at`          | timestamp    | Soft delete timestamp (nullable)       |
 
 ## User Flow Images
+### Login
 <img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.51.53 AM.png" alt="Login Screenshot" width="400"/>
 
-![Login](/laravel-unifinder-images/Screenshot 2024-04-17 at 7.51.53 AM.png)
+### Create - Universities
+<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.59.35 AM.png" alt="Create Screenshot" width="400"/>
+
+### Read - Universities
+<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.13.46 AM.png" alt="Read Screenshot" width="400"/>
+
+### Read - University Details
+<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.58.41 AM.png" alt="Read Screenshot" width="400"/>
+
+### Update - University Details
+<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.59.10 AM.png" alt="Update Screenshot" width="400"/>
+
+### Delete - Universities
+<img src="laravel-unifinder-images/Screenshot 2024-04-17 at 7.13.46 AM.png" alt="Delete Screenshot" width="400"/>
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
