@@ -1,3 +1,49 @@
+# University and Country Management System
+
+## Introduction
+
+This project is a web-based application designed to manage information about universities and countries. It allows users to create, read, update, and delete (CRUD) details about universities and countries. The application is built using the Laravel framework, demonstrating modern web application practices and Laravel's capabilities.
+
+## Features
+
+- **University Management**: Users can manage university details such as names, images, and statistical data including the number of students and staff ratios.
+- **Country Management**: Users can manage country details. The system allows for adding, editing, and deleting countries.
+- **Authentication**:
+  - The application includes a user authentication system.
+  - CRUD functionalities for the Country model are restricted to authenticated users only, ensuring that anonymous users cannot access these sensitive operations.
+- **Soft Deletes**: Both universities and countries can be 'soft deleted' and restored, providing a safe way to manage data without permanent loss.
+- **Data Relationships**: The application handles relationships between countries and universities, such as associating universities with specific countries.
+
+## Database Schema
+
+### Universities Table
+
+| Column                | Type         | Description                            |
+|-----------------------|--------------|----------------------------------------|
+| `id`                  | bigint       | Primary key, auto-increments           |
+| `universityName`      | varchar(255) | Name of the university                 |
+| `imageURL`            | varchar(255) | URL to an image of the university      |
+| `country_id`          | bigint       | Foreign key to `countries` table       |
+| `year`                | year         | Year the data was recorded             |
+| `number_of_students`  | int          | Total number of students               |
+| `student_to_staff_ratio` | float     | Ratio of students to staff             |
+| `created_at`          | timestamp    | Record creation timestamp              |
+| `updated_at`          | timestamp    | Record update timestamp                |
+| `deleted_at`          | timestamp    | Soft delete timestamp (nullable)       |
+
+### Countries Table
+
+| Column                | Type         | Description                            |
+|-----------------------|--------------|----------------------------------------|
+| `id`                  | bigint       | Primary key, auto-increments           |
+| `countryName`         | varchar(255) | Name of the country                    |
+| `created_at`          | timestamp    | Record creation timestamp              |
+| `updated_at`          | timestamp    | Record update timestamp                |
+| `deleted_at`          | timestamp    | Soft delete timestamp (nullable)       |
+
+## User Flow Images
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
